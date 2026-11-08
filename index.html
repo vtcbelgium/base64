@@ -40,36 +40,38 @@
   <a href="#main-content" class="skip-link">Skip to main content</a>
 
   <!-- SOVEREIGN FLEET HEADER -->
-  <header class="sovereign-header" role="banner">
-    <div class="header-inner">
-      <div class="header-brand">
-        <a href="https://othrys.be" class="fleet-hub-link" title="Return to OTHRYS Sovereign Fleet" aria-label="OTHRYS Home">
-          <span class="fleet-glyph">✦</span>
-          <span class="fleet-wordmark">OTHRYS</span>
-        </a>
-        <span class="brand-divider" aria-hidden="true">/</span>
-        <h1 class="brand-title">Base64 Inspector and Converter</h1>
-      </div>
-      <div class="header-actions">
-        <button id="theme-toggle" class="header-btn" type="button" aria-label="Toggle light or dark theme" title="Toggle theme">
-          <span class="theme-icon light-icon" aria-hidden="true">☀</span>
-          <span class="theme-icon dark-icon" aria-hidden="true">🌙</span>
-        </button>
-        <button id="open-settings" class="header-btn" type="button" aria-label="Open settings and accessibility preferences" title="Settings">
-          ⚙ Settings
-        </button>
-        <button id="open-about" class="header-btn" type="button" aria-label="Open about dialog" title="About Base64 Inspector and Converter">
-          ℹ About
-        </button>
-      </div>
+  <header class="site-header" role="banner">
+    <div class="header-left">
+      <a class="brand othrys-brand" href="./" aria-label="Base64 Inspector and Converter home">
+        <div class="brand-row">
+          <span class="brand-logo-mark" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="16 18 22 12 16 6"/>
+              <polyline points="8 6 2 12 8 18"/>
+            </svg>
+          </span>
+          <span class="brand-main">Base<strong>64</strong></span>
+          <span class="sovereign-status-badge" title="No registration, tracking, or cloud backend required">Sovereign</span>
+        </div>
+        <small class="brand-signature">powered by OTHRYS</small>
+      </a>
+    </div>
+
+    <div class="header-actions">
+      <a href="https://othrys.be/" target="_blank" rel="noopener noreferrer" class="nav-fleet-pill" title="Return to Sovereign Fleet Hub">Fleet ↗</a>
+      <button type="button" id="open-settings" class="icon-toggle-btn" aria-label="Open settings and accessibility preferences" title="Settings">⚙</button>
+      <button type="button" id="open-about" class="icon-toggle-btn" aria-label="Open about dialog" title="About">ℹ</button>
+      <button type="button" id="theme-toggle" class="icon-toggle-btn" aria-label="Toggle dark/light theme" title="Toggle theme">◐</button>
     </div>
   </header>
 
   <!-- MAIN APPLICATION -->
   <main id="main-content" class="main-layout" role="main">
-    <section class="hero-section">
-      <div class="hero-badge">⚡ 100% Client-Side • Zero Network Ingress</div>
-      <h2 class="hero-title">Base64 Inspector and Converter</h2>
+    <section class="hero">
+      <div class="hero-badge-wrap">
+        <p class="eyebrow"><span class="eyebrow-dot"></span><span>FREE · INSTANT · PRIVATE</span></p>
+      </div>
+      <h1 class="hero-title">Base64 Inspector &amp; Converter</h1>
       <p class="hero-subtitle">Private client-side Base64 encoder and decoder for text and binary files with zero server uploads.</p>
     </section>
 
