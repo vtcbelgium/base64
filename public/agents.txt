@@ -1,0 +1,7 @@
+Name: Base64Tool
+URL: https://base64.othrys.be/
+Description: Fast, private, client-side RFC 4648 Base64, Base64URL and Data URI utility.
+LLMs-Txt: https://base64.othrys.be/llms.txt
+Sitemap: https://base64.othrys.be/sitemap.xml
+Protocol: public-read-only
+Privacy: zero-tracking-cookies, local-browser-execution, zero-cloud-uploads
